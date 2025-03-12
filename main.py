@@ -12,7 +12,7 @@ while True:
      img=detector.findPose(img)
      imlist,bbox=detector.findPosition(img)
      if len(imlist) > 0:
-         print("Human Detect")
+         print("Unknown Person Detected")
          l.append(1)
      if len(l) > 50 and flag:
          flag=False
